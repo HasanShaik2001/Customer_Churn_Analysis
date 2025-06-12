@@ -22,7 +22,7 @@ The dataset used for this analysis contains customer information such as:
 - Identifying key drivers of customer churn
 - Providing actionable business insights
 
-### Actionable Insights
+#### Actionable Insights
 
 - Overall Churn Rate is High
 Out of 7,043 customers, around 1,869 customers churned, giving an overall churn rate of 26.5%. This means more than 1 in 4 customers left the service, highlighting a critical area of business loss.
