@@ -10,3 +10,7 @@ The dataset used for this analysis contains customer information such as:
 - Services opted (InternetService, PhoneService, StreamingTV, etc.)
 - Account info (tenure, contract type, payment method)
 - Churn label (Yes/No)
+
+### Source
+ [Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
