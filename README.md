@@ -27,13 +27,13 @@ The dataset used for this analysis contains customer information such as:
 - Overall Churn Rate is High
 Out of 7,043 customers, around 1,869 customers churned, giving an overall churn rate of 26.5%. This means more than 1 in 4 customers left the service, highlighting a critical area of business loss.
 
-- Month-to-Month Contracts Drive Churn
+## Month-to-Month Contracts Drive Churn
 
-88% of churned customers were on month-to-month contracts.
+- 88% of churned customers were on month-to-month contracts.
 
-Churn rate for this group is 43%, compared to only 11% for 1-year and 3% for 2-year contracts.
+- Churn rate for this group is 43%, compared to only 11% for 1-year and 3% for 2-year contracts.
 
-Actionable Insight: Promote long-term contracts using discounts, loyalty rewards, or free value-added services.
+- Actionable Insight: Promote long-term contracts using discounts, loyalty rewards, or free value-added services.
 
 - Senior Citizens Are More Likely to Churn
 
