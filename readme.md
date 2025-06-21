@@ -26,6 +26,7 @@ The dataset used for this analysis contains customer information such as:
 - Total Customers: 7,043
 - Total Churned Customers: 1,869
 - Overall Churn Rate: 26.5%
+- New Joiners: 411
 
 #### Overall Churn Rate is High
 - Out of 6,418 customers, around 1,732 customers churned, giving an overall churn rate of 27.0%.
