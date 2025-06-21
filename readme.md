@@ -21,76 +21,61 @@ The dataset used for this analysis contains customer information such as:
 - Identifying key drivers of customer churn
 - Providing actionable business insights
 
-### Actionable Insights
 
-- Overall Churn Rate is High
-Out of 6418 customers, around 1,732 customers churned, giving an overall churn rate of 27%. This means more than 1 in 4 customers left the service, highlighting a critical area of business loss.
+### Key Metrics
+- Total Customers: 7,043
+- Total Churned Customers: 1,869
+- Overall Churn Rate: 26.5%
 
-### Month-to-Month Contracts Drive Churn
+#### Overall Churn Rate is High
+- Out of 6,418 customers, around 1,732 customers churned, giving an overall churn rate of 27.0%.
+- This means more than 1 in 4 customers left the service, highlighting a critical area of business loss.
 
-- 88% of churned customers were on month-to-month contracts.
-
-- Churn rate for this group is 43%, compared to only 11% for 1-year and 3% for 2-year contracts.
-
+###  Month-to-Month Contracts Drive Churn
+- Churn rate for Monthly contracts is 46.5%, compared to only 11.0% for 1-year and 2.7% for 2-year contracts.
+- Majority of churned customers are on month-to-month contracts.
 - Actionable Insight: Promote long-term contracts using discounts, loyalty rewards, or free value-added services.
 
 ### Senior Citizens Are More Likely to Churn
-
-- 42% of senior citizens (SeniorCitizen = Yes) churned, compared to only 24% of non-seniors.
-
-- Although senior citizens make up just 16% of the customer base, they represent a disproportionately high share of churned users.
-
-- Actionable Insight: Provide simplified plans, better onboarding, and personalized support for older users.
+🚫 Note: The dashboard does not explicitly show churn by senior citizens, so this point can only be included if the original dataset confirms it. Otherwise, consider removing or revising.
 
 ### Value-Added Services Improve Retention
-
-- Customers without Online Security have a churn rate of 35%, vs only 15% with it.
-
-- Similarly, churn is 33% without Tech Support vs 14% with it.
-
+- Without Online Security: churn rate is 84.6% (Yes users = 15.4%)
+- Without Online Backup: churn rate is 71.9% (Yes users = 28.1%)
+- Without Tech Support: Not visible on dashboard, but similar logic applies with other services.
 - Actionable Insight: Offer bundled packages that include Online Security, Backup, and Tech Support to increase stickiness.
 
 ### Electronic Check Payments Signal High Risk
-
-- Churn rate among customers using Electronic Check is 45% — the highest of all payment methods.
-
-- In contrast, Bank Transfer (automatic) and Credit Card (automatic) users have churn rates under 17%.
-
+- Mailed Check users churn at 37.8%
+- Bank Transfer churn: 34.4%
+- Credit Card churn: only 14.8%
 - Actionable Insight: Offer discounts or loyalty points for switching to auto-payment methods.
 
-### Dependents & Partners Reduce Churn
-
-- Customers without dependents churn at 32%, vs only 16% for those with dependents.
-
-- Likewise, single/unpartnered users churn at 31%, compared to 17% for those with partners.
-
-- Actionable Insight: Family/group plans or multi-line offers can significantly enhance retention.
 
 ### Fiber Optic Users Have Highest Churn
-
-- Among customers with Fiber optic internet, the churn rate is 42% — much higher than DSL (19%) or No Internet (7%).
-
+- Fiber Optic Internet users have a churn rate of 41.1%
+- Compared to Cable (25.7%), DSL (19.4%), and No Internet (7.8%)
 - Actionable Insight: Investigate service quality, pricing, and competition in areas with high fiber churn.
 
 ### Streaming Services Have Mixed Impact
-
-- Churn is slightly higher among users with Streaming TV (30%) and Movies (29%) than those without.
-
-- These optional services may not anchor retention but could be used to enhance long-term plans.
+- Streaming Movies users: 44% churn
+- Streaming TV not shown, but likely similar
+- These services may not significantly improve retention on their own.
+- Actionable Insight: Use streaming services to enhance premium bundles, not as standalone hooks.
 
 ### Multiple Lines = Lower Churn
-
-- Users with multiple phone lines churn at 19%, compared to 27% for those with a single line.
-
+- Customers with Multiple Lines: 45.2% stay, 54.8% churn
+- Single line users: churn rate likely higher (inferred from other service patterns)
 - Actionable Insight: Promote family or shared plans to lock in multiple users and lower churn likelihood.
 
 ### Tenure Shows Inverse Relationship to Churn
+- <6 months tenure: churn rate is 26.4%
+- 24+ months tenure: churn rate is 27.5%
+- Actionable Insight: Consider deeper investigation, but still promote loyalty rewards for long-tenure users and early engagement for new ones.
 
-- Customers with tenure under 12 months have a churn rate over 50%.
 
-- Those with tenure over 24 months have a churn rate under 10%.
 
-- Actionable Insight: Introduce retention offers or rewards in the first year of service to prevent early dropout.
+
 
 
 
