@@ -12,8 +12,7 @@ The dataset used for this analysis contains customer information such as:
 - Churn label (Yes/No)
 
 ### Source
- [Customer Churn Dataset](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
-
+ [Customer Churn Dataset](https://pivotalstats.com/end-end-churn-analysis-portfolio-project/)
 
 ### Objectives
 
