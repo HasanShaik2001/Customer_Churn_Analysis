@@ -37,7 +37,9 @@ The dataset used for this analysis contains customer information such as:
 - Actionable Insight: Promote long-term contracts using discounts, loyalty rewards, or free value-added services.
 
 ### Senior Citizens Are More Likely to Churn
-🚫 Note: The dashboard does not explicitly show churn by senior citizens, so this point can only be included if the original dataset confirms it. Otherwise, consider removing or revising.
+- Churn rate of citizens in the age group of 20 - 35 years is 23.5%
+- Churn rate of citizens in the age group of 30- 50 years is 24%
+- Churn rate of citizens in the age group of 50+ years is 31%
 
 ### Value-Added Services Improve Retention
 - Without Online Security: churn rate is 84.6% (Yes users = 15.4%)
